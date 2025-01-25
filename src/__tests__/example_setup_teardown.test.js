@@ -5,6 +5,15 @@ describe('setup and teardown examples',()=>{
     beforeEach(()=>{
         console.log("beforeEach"); // se ejecuta antes de cada uno de los test
     })
+
+    afterAll(()=>{
+        console.log('afterAll'); // se ejecuta al final de todos los test
+    });
+
+    afterEach(()=>{
+        console.log('afterEach'); // se ejecuta al final de cada uno de los test
+    });
+
     test('Example 1', ()=> {
         expect(true).toBe(true);
     })
