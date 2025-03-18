@@ -1,6 +1,7 @@
 import "./App.css";
 import { HelloWorld } from "./components/HelloWorld/HelloWorld";
 import { Counter } from "./components/Counter/Counter";
+import { AsyncList } from "./components/AsyncList/AsyncList";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <section className="container">
           <HelloWorld />
           <Counter />
+          <AsyncList />
         </section>
       </header>
     </div>
